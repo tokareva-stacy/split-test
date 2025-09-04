@@ -1,0 +1,121 @@
+.hero-section {
+  height: 476px;
+  background-image: url(../img/hero/banner-photo-min.jpg);
+  background-size: cover;
+  background-position: right center;
+  }
+  
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: url(../img/hero/banner-photo@2x-min.jpg);
+  
+    }
+  }
+
+.hero-content {
+  padding-top: 16px;
+  width: 343px;
+}
+.hero-content-wrapper {
+  margin-bottom: 16px;
+}
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 128%;
+  max-width: 500px;
+  text-transform: uppercase;
+  color: #212322;
+  margin-bottom: 4px;
+}
+
+.hero-title .line {
+  display: block;
+}
+
+.hero-title .left {
+  text-align: left;
+}
+
+.hero-title .center {
+  text-align: center;
+}
+
+.hero-title em {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #212322;
+  
+}
+.hero-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #605e5c;
+}
+.hero-button {
+  border-radius: 6px;
+  padding: 15px 32px;
+  width: 133px;
+  height: 50px;
+  background-color: #212322;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #fafaf8;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+@media screen and (min-width: 768px) {
+  .hero-content {
+      padding-top: 36px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .hero-section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 703px;
+  }
+  .hero-content {
+    padding-top: 75px;
+    padding-left: 2px; 
+    width: 541px;
+  }
+  .hero-content-wrapper {
+    margin-bottom: 40px;
+    padding: 16px 20px 0 20px;
+  }
+  .hero-title {
+    margin-bottom: 16px;
+    font-size: 64px;
+    line-height: 122%;
+  }
+  .hero-title em {
+    font-size: 72px;
+    line-height: 131%;
+  }
+  .hero-description {
+    font-size: 18px;
+    line-height: 144%;
+  }
+  .hero-button {
+    margin-left: 20px;
+    width: 186px;
+  }
+}

@@ -22,6 +22,10 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  font-family: "Inter", sans-serif;
+}
+body.is-menu-open {
+  overflow: hidden;
 }
 
 main {
@@ -30,3 +34,14 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
